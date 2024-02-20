@@ -9,7 +9,7 @@ export const check = <i className="fa-solid fa-check"></i>;
 export const help = <i className="fa-solid fa-circle-info"></i>;
 export const gear = <i className="fa-solid fa-gear"></i>;
 export const login = <i className="fa-solid fa-right-to-bracket"></i>;
-export const logout = <i class="fa-solid fa-right-from-bracket"></i>
+export const logout = <i className="fa-solid fa-right-from-bracket"></i>
 export const user = <i className="fa-solid fa-user"></i>;
 export const join = <i className="fa-solid fa-user-plus"></i>;
 export const heart = <i className="fa-solid fa-heart"></i>;
