@@ -7,6 +7,7 @@ import ContextProviders from "./providers/ContextProviders";
 
 import { ClerkProvider, auth } from "@clerk/nextjs";
 import NextTopLoader from "nextjs-toploader";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const nunito = Nunito({
   weight: ["400", "500", "600", "700", "800"],
@@ -26,6 +27,7 @@ export default function RootLayout({
   const { userId } = auth();
   return (
     <ClerkProvider>
+      <SpeedInsights/>
       <html lang="en">
         <head>
           <link
